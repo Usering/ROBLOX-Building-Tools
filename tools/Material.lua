@@ -316,6 +316,9 @@ Tools.Material.showGUI = function ( self )
 		MaterialDropdown:addOption( "MARBLE" ).MouseButton1Up:connect( function ()
 			self:changeMaterial( Enum.Material.Marble );
 		end );
+		MaterialDropdown:addOption( "NEON" ).MouseButton1Up:connect( function ()
+			self:changeMaterial( Enum.Material.Neon );
+		end );
 		MaterialDropdown:addOption( "PEBBLE" ).MouseButton1Up:connect( function ()
 			self:changeMaterial( Enum.Material.Pebble );
 		end );
